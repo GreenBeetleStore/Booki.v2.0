@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GreenBeetleStore/OhMyFood.git"
+    "url": "git+https://github.com/GreenBeetleStore/Booki.v2.0.git"
   },
   "author": "L'Escarabat Verd",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GreenBeetleStore/OhMyFood/issues"
+    "url": "https://github.com/GreenBeetleStore/Booki.v2.0/issues"
   },
-  "homepage": "https://github.com/GreenBeetleStore/OhMyFood#readme"
+  "homepage": "https://github.com/GreenBeetleStore/Booki.v2.0#readme"
 }
