@@ -1,0 +1,19 @@
+{
+  "name": "escriure-sass",
+  "version": "1.0.0",
+  "description": "La meva primera experiència amb Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreenBeetleStore/OhMyFood.git"
+  },
+  "author": "L'Escarabat Verd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GreenBeetleStore/OhMyFood/issues"
+  },
+  "homepage": "https://github.com/GreenBeetleStore/OhMyFood#readme"
+}

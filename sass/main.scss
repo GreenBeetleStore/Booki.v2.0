@@ -1,0 +1,1001 @@
+/* CSS FATHER - width = 1440px */
+/*=============================*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Raleway', Verdana, Tahoma, sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    margin: auto;
+}
+/* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 0 3.47% 0 3.47%;
+}
+.header-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.header-logo img {
+    position: relative;
+    width: 62px;
+    height: 31px;
+    margin: 35px 0 36px 19px;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 55px;
+}
+nav a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    width: 160px;
+    padding-top: 55px;
+    border-top: 2px solid white;
+}
+nav a:hover{ 
+    color: #0065FC;
+    border-top: 2px solid #2164FD;
+}
+.header-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 56px;
+}
+h1{
+    position: relative;
+    align-items: flex-start;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0 0 0 5px;
+}
+.header-title p {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    margin: 5px 0 0 5px;
+}
+/* Main: Form Button */
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    padding: 0 3.47% 0 3.47%;
+}
+.form-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 71px;
+    margin-top: 20px;
+}
+.maps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4px;
+    width: 52px;
+    height: 51px;
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 14px 0 0 14px;
+    box-sizing: border-box;
+ }
+.maps i{
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+.champ{
+    height: 51px;
+    border: 1px solid #F2F2F2;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'raleway';
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.form-input{
+    display: flex;
+    align-items: center;
+    width: 232px;
+    height: 51px;
+    margin: 13px 0 13px 0;
+    border: none;
+}
+.form-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 134px;
+    height: 51px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #0065FC;
+    border-radius: 0 14px 14px 0;
+    box-sizing: border-box;
+}
+.form-button i{
+    display: none;
+}
+/* Main: Filtres */ 
+.filtres{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+}
+.filtres h2{
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0 0 0 0;
+    padding: 30px 32px 0px 6px;
+}
+.buttons{
+    display: flex;
+    width: 930px;
+    flex-wrap: wrap;
+    gap: 1.75%;                    /* 24px (1.79%); */
+    justify-content: flex-start;
+    align-items: center;
+    margin: 21px 0 0 0 ;
+    padding: 0;
+}
+.boxes p{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0 5px;
+}
+.boxes{
+    align-items: center;
+    height: 48px;
+    margin-left: 6px;
+    white-space: nowrap;
+}
+.boxes:hover{
+    height: 110%;
+    border-radius: 26px;
+    outline: 2px dotted #2164FD;
+    background-color: #F2F2F2;
+}
+.icon-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50.5px;
+    height: 50.5px;
+    border-radius: 50%;
+    background-color: #DEEBFF;
+    position: absolute;
+    left: -6px;
+    top: -2.1px;
+}
+.icon-box i{
+    color: #0065FC;
+    font-size: 20px;
+}
+.form-box{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 0 24px 0 62px;
+    border: 1px solid #DEEBFF;
+    border-radius: 24px;
+    height: 48px;
+    width: auto;
+}
+.info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 35px;
+    padding-bottom: 35px;
+}
+.i-symbol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #DEEBFF;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.i-symbol i{
+    font-size: 14px;
+    color: #0065FC;
+}
+.info p{
+    font-size: 18px;
+    font-weight: 500;
+}
+/* Section: RENT */
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-width: 80%;
+    margin: 0 auto;
+    height: max-content;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{ 
+    color: #0065FC;
+}
+.rent{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2.985%;                    /* 2.985%; 40px */
+    width: 100%;
+    min-width: 80%;                 /* 80%; 1072px */
+    height: max-content;
+    margin: 37px auto 0 auto;
+    padding: 0 3.47% 0 3.47%;       /* 3.47% = 50px */
+}
+.host{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 65.67%;               /* 65.67% 880px */
+    max-width: 880px;
+    height: max-content;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 0 2.985%;           /* 0 40px */
+    margin-bottom: 38px;
+}
+.popular{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 31.34%;              /* 31.34%;  420px */
+    min-width: 380px;        /* 25.07%; = 80% de 420px = 336px; */
+    max-width: 420px;
+    height: max-content;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 0 2.84%;               /* 38px; */
+    margin-top: 0.5px;
+    margin-bottom: 38px;
+}
+.host:nth-child(1){
+    flex: 2;
+}
+.popular:nth-child(2){
+    flex: 1;
+}
+.host h2{
+    font-size: 22px;
+    align-self: flex-start;
+    padding: 38px 0 19px 0;
+}
+.rooms{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;                /* 800px */
+    height: max-content;
+    gap: 3.5%;                  /* 31px = 3.875% */
+}
+.rooms article{
+    flex-direction: column;
+    width: 30.75%;           /* 30.75%;  246px */
+    min-width: 220px;        /* 92.68%;  228px */
+    height: 199px;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 5px 5px 7px 2px #c4c4c4;
+    line-height: 50%;
+    margin-bottom: 30px;
+}
+.rooms article img{
+    align-self: center;
+    width: 95.94%;          /* 95.94%; 236px*/
+    height: 113px;
+    margin: 5px 5px 15px 5px;
+    border-radius: 13px 13px 0 0;
+    object-fit: cover;
+}
+.rooms article h3{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 12px 0 14px 16px;
+}
+.rooms article p{
+    font-size: 14px;
+    margin: 12px 0 14px 16px;
+}
+.rooms .stars{
+    display: flex;
+    font-size: 12px;
+    margin: -2px 0 16px 16px;
+    letter-spacing: -1.4px;
+    width: 72px;                    /* 68px */
+}
+.blue-star{
+    color: #0065FC;
+}
+.grey-star{
+    color: #DEEBFF;
+}
+.host h4{
+    font-size: 18px;
+    align-self: flex-start;
+    padding: 12px 0 ; 
+    margin-bottom: 33px;
+}
+.title-chart{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;                   /* 343px */
+    min-width: 80%;                /* 274.4px */
+    height: auto;
+    padding: 39px 0 21px 0px;
+}
+.floating-image{
+    float: right;
+}
+.popular h2{
+    font-size: 22px;  
+}
+.famous{
+    display: flex;
+    flex-direction: column;
+    width: 100%;                    /* 100%; 343px */
+    min-width: 298px;                 /* 274.4px */
+    max-width: 343px;
+    height: max-content;
+}
+.famous article{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-self: center;
+    width: 100%;               /* 100%; 343px */
+    min-width: 298px;
+    max-width: 343px;            /* 80%; 274.4px */
+    height: 144px;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 5px 5px 7px 2px #c4c4c4;
+    margin: 1px 0 34px 0;
+}
+.famous article img{
+    width: 127px;
+    height: 134px;
+    margin: 5px 0 5px 5px;
+    border-radius: 13px 0 0 13px;
+    object-fit: cover;
+}
+.offer{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 138px;
+    min-width: 110.4px;
+    height: 112px;
+    left: 46%;                   /* 155px; */
+    bottom: 15px;
+}
+.offer h3{
+    width: 150px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.offer p{
+    font-size: 14px;
+    margin-top: -25px;
+}
+.offer .stars{
+    font-size: 12px;
+    letter-spacing: -1.4px;
+    width: 72px;
+    display: flex;
+}
+/* Section: VISIT */
+.visit{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;                    /* 1440px */
+    min-width: 992px;
+    height: max-content;
+    padding: 0 3.47% 0 3.47%;
+}
+.visit h2{
+    font-size: 22px;
+    margin: 0 0 19px 0;
+}
+.activity{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;                    /* 1340px */
+    min-width: 900px;               /* 80%;  1273px; */
+    height: max-content;
+    gap: 3%;                        /* 3.27%;  44px */
+    margin: auto;
+}
+.activity article{
+    flex-direction: column;
+    width: 22.54%;                  /* 302px */
+    min-width: 210px;             /* 80% de 302px = 241.6px */
+    height: 446px;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 5px 5px 7px 2px #c4c4c4;
+    line-height: 50%;
+    margin-bottom: 43px;
+}
+.activity article img{
+    height: 390px;
+    /* margin: 0 0 22px 0; */
+    border-radius: 18px 18px 0 0;
+    object-fit: cover;
+    object-position: -160px 0px;
+}
+.activity article h3{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0;
+    margin: 12px 0 0 16px;
+    line-height: 1.2;
+}
+.fort-iles, .notre-parc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 22.54%;                /* 302px */
+    min-width: 210px;             /* 80% de 302px = 241.6px */
+    height: 446px;
+    margin-bottom: 43px;
+}
+.fort-iles h3, .notre-parc h3{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0;
+    margin: 12px 0 0 16px;
+    line-height: 1.2;
+}
+.pomegues{
+    height: 236px;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 5px 5px 7px 2px #c4c4c4;
+    margin-bottom: 43px;
+}
+.pomegues img{
+    width: 100%;
+    height: 180px;
+    margin: 0 0 14px 0;
+    border-radius: 18px 18px 0 0;
+    object-fit: cover;
+    object-position: 0 -105px;
+}
+.frioul{
+    height: 165px;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 5px 5px 7px 2px #c4c4c4;
+}
+.frioul img{
+    width: 100%;
+    height: 109px;
+    margin: 0 0 14px 0;
+    border-radius: 18px 18px 0 0;
+    object-fit: cover;
+    object-position: 0 -15px;
+}
+.la-garde{
+    height: 196px;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 5px 5px 7px 2px #c4c4c4;
+    margin-bottom: 41px;
+}
+.la-garde img{
+    width: 100%;
+    height: 140px;
+    margin: 0 0 14px 0;
+    border-radius: 18px 18px 0 0;
+    object-fit: cover;
+    object-position: 0 0;
+}
+.longchamp{
+    height: 210px;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 5px 5px 7px 2px #c4c4c4;
+}
+.longchamp img{
+    width: 100%;
+    height: 154px;
+    margin: 0 0 14px 0;
+    border-radius: 18px 18px 0 0;
+    object-fit: cover;
+    object-position: 0 -5px;
+}
+/* FOOTER */
+footer{
+    width: 100%;
+    height: 218px;
+    margin-top: 17px;
+    background-color: #F2F2F2;
+}
+.sock{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    height: 218px;
+    padding: 35px 0 0 35px;
+}
+.step{
+    width: 455px;
+    height: 142px;
+    padding: 13px 0 0 15px;
+}
+.step h4{
+    font-size: 18px;
+    font-weight: 800;
+}
+.step li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: -40px;
+    line-height: 2;
+    flex-wrap: nowrap;
+}
+/* RESPONSIVE */
+/*============*/
+/* Tablette: libre adaptation Break Point 992px */
+@media only screen and (max-width: 992px ){
+    /* HEADER */
+    .header-logo img {
+        margin: 0 0 30px 15px;
+    }
+    nav {
+        margin-bottom: 66px;
+    }
+    nav a{
+        font-size: 95%;
+        width: 145px;
+        padding-bottom: 12px;
+        border-top: none;
+        border-bottom: 2px solid #F2F2F2;
+    }
+    nav a:hover{ 
+        color: #0065FC;
+        border-bottom: 2px solid #2164FD;
+        border-top: none;
+    }
+    h1{
+        font-size: 22.5px;
+    }
+    .header-title p{
+        font-size: 16px;
+        padding-left: 2px;
+    }
+    .info p{
+        font-size: 16px;
+    }
+    /* MAIN */
+    .maps{
+        width: 41.6px;
+        height: 40.8px;
+        border-radius: 11.5px 0 0 11.5px ;
+    }
+    .maps i{
+        font-size: 14.5px;
+    }
+    .champ{
+        height: 40.8px;
+        width: 200px;
+        font-size: 16.5px;
+    }
+    .form-input{
+        width: 200px;
+        height: 40.8px;
+    }
+    .form-button{
+        width: 108px;
+        height: 40.8px;
+        font-size: 16.5px;
+    }
+    .boxes{
+        margin-left: 4.8px;
+        height: 38.4px;
+    }
+    .boxes p{
+        font-size: 15px;
+    }
+    .icon-box{
+        width: 40.4px;
+        height: 40.4px;
+    }
+    .icon-box i{
+        font-size: 16px;
+    }
+    .form-box{
+        height: 38.4px;
+        padding: 0 15px 0 42px;
+        border: 1px solid #DEEBFF;
+        border-radius: 19.2px;
+    }
+    /* Section */
+    .rent{
+        width: 100%;
+        min-width: 80%;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    .popular{
+        background-color: #FFFFFF;
+        margin-top: 40px;
+        margin-bottom: 35px;
+        padding: 0 268px;
+    }
+    .title-chart{
+        width: 343px;
+    }
+    .famous article{
+        width: 343px;
+    }
+    .host{
+        width: 100%;
+        min-width: 80%;
+        margin: 0 auto 65px auto;
+    }
+    .rooms{
+        width: 100%;
+        min-width: 80%;
+        gap: 3%;
+    }
+    .rooms article{
+        width: 31%;
+        min-width: 210px;
+    }
+    .visit{
+        width: 100%;
+        min-width: 80%;
+    }
+    .activity{
+        width: 100%;
+        min-width: 80%;
+        gap: 2.5%;
+        justify-content: space-between;
+        align-self: center;
+    }
+    .activity h3{
+        font-size: 15px;
+        margin: 20px 1px 0 8px;
+    }
+    .activity article{
+        width: 31%;
+        min-width: 226px;
+        line-height: normal;
+    }
+    .fort-iles{
+        width: 31%;
+        min-width: 226px;
+    }
+    .notre-parc{
+        width: 100%;
+        height: max-content;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .la-garde{
+        width: 31%;
+        min-width: 226px;
+    }
+    .longchamp{
+        width: 31%;
+        min-width: 226px;
+    }
+}
+/* Maquette Iphone8 : Maquette à 375px, Break Point 768px */
+@media only screen and (max-width: 768px ){ 
+    body{
+        align-items: center;
+    }
+    header{
+        padding: 0;
+        width: 100%;
+    }
+    .header-logo {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 142px;
+    }
+    .header-logo img {
+        width: 62px;
+        height: 31px;
+        margin: 28px 0 38px 0;
+    }
+    nav {
+        width: 100%;
+        height: 32px;
+        justify-content: space-between;
+        align-items: flex-start;
+        text-decoration: none;
+    }
+    nav a{
+        width: 50%;
+        padding: 0 0 14px 0;
+        margin: 0 0 26px 0;
+        border-top: none;
+        border-bottom: 3px solid #F2F2F2;
+    }
+    nav a:hover{ 
+        color: #0065FC;
+        border-bottom: 3px solid #2164FD;
+        border-top: none;
+    }
+    .header-title{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+    .header-title h1{
+        font-size: 22px;
+        font-weight: 700;
+        margin: 22px 0 0 22px;
+        width: 80%;
+    }
+    .header-title p {
+        margin: 15px 65px 0 20px;
+        font-weight: 500;
+        font-size: 100%;
+        width: 80%;
+    }
+    main {
+        width: 100%;
+        height: auto;
+        margin: 12px 0 0 0;
+        flex-wrap: wrap;
+    }
+    .form-content{
+        width: 335px;
+        margin: 0;
+        position: relative;
+        align-self: flex-start;
+    }
+    .maps{
+        width: 52px;
+        height: 51px;
+        border-radius: 15px 0 0 15px;
+        margin-left: 0;
+    }
+    .maps i{
+        font-size: 20px;
+    }
+    .champ{
+        width: 245px;
+        height: 51px;
+        padding-left: 18px;
+    }
+    .form-button{
+        position: absolute;
+        left: 284px;
+        width: 51px;
+        height: 51px;
+        border-radius: 15px;
+    }
+    .form-button p{
+        display: none;
+    }
+    .form-button i{
+        display: flex;
+        font-size: 20px;
+    }
+    .filtres{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .filtres h2{
+        padding-bottom: 0;
+        padding-left: 0;
+    }
+    .buttons{
+        gap: 11px;
+        width: 100%;
+    }
+    .boxes{
+        align-items: center;
+        height: 48px;
+    }
+    .boxes p{
+        font-size: 16px;
+    }
+    .form-box{
+        height: 48px;
+        border-radius: 24px;
+        padding-left: 54px;
+    }
+    .icon-box{
+        width: 50px;
+        height: 50px;
+    }
+    .icon-box i{
+        font-size: 20px;
+    }
+    .info{
+        align-items: flex-start;
+        width: 100%;
+        position: relative;
+    }
+    .i-symbol{
+        position: absolute;
+    }
+    .info p{
+        width: auto;
+        margin-left: 35px;
+        font-size: 16px;
+    }
+    section{
+        width: 100%;
+        align-items: center;
+    }
+    .rent{
+        padding: 0;
+    }
+    .popular{
+        width: 100%;
+        min-width: 364px;
+        border-radius: 0;
+        margin-top: 67px;
+        margin-bottom: -30px;
+        background-color: #F2F2F2;
+    }
+    .title-chart{
+        width: 334px;
+    }
+    .famous{
+        width: 100%;
+        min-width: 334px;
+    }
+    .famous article{
+        width: 334px;
+    }
+    .host{
+        width: 100%;
+        min-width: 364px;
+        border-radius: 0;
+        padding: 0 217px;
+        background-color: white;
+        margin-bottom: 0px;
+    }
+    .host h2{
+        width: 334px;
+        align-self: center;
+    }
+    .host h4{
+        width: 334px;
+        align-self: center;
+    }
+    .rooms{
+        width: 334px;
+        flex-direction: column;
+    }
+    .rooms article{
+        width: 334px;
+    }
+    .rooms article img{
+        width: 324px;
+    }
+    .visit{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        min-width: 364px;
+        margin: auto;
+    }
+    .visit h2{
+        width: 334px;
+        align-self: center;
+    }
+    .activity{
+        align-self: center;
+        flex-wrap: wrap;
+        width: 334px;                  /* 334px; = 43.49% */
+        justify-content: center;
+        margin: 0 auto 40px auto;
+    }
+    .activity article{
+        width: 334px;
+        height: 190px;
+    }
+    .activity article img{
+        width: 334px;
+        height: 134px;
+        object-position: 0 -18px;
+    }
+    .fort-iles{
+        width: 334px;
+    }
+    .notre-parc{
+        flex-wrap: wrap;
+        width: 334px;
+    }
+    .pomegues, .frioul, .la-garde, .longchamp{
+        width: 334px;
+        height: 190px;
+    }
+    .fort-iles img, .notre-parc img{
+        width: 334px;
+        height: 134px;
+    }
+    .pomegues img{
+        object-position: 0 -160px;
+    }
+    .la-garde img{
+        object-position: 0 -15px;
+    }
+    .longchamp img{
+        object-position: 0 -32px;
+    }
+    footer{
+        width: 100%;
+        min-width: 364px;
+        height: max-content;
+        padding-top: 35px;
+        margin-top: 75px;
+    }
+    .sock{
+        flex-direction: column;
+        align-items: center;
+        width: 92.59%;                  /* 712px; */
+        height: max-content;
+        padding: 0;
+        margin: auto;
+    }
+    .step{
+        width: 334px;
+        margin-bottom: 21px;
+        padding-left: 8px;
+        padding-top: 18px;
+    }
+}
