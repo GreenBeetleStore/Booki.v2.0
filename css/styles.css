@@ -587,6 +587,15 @@ footer{
     line-height: 2;
     flex-wrap: nowrap;
 }
+
+.studio {
+    width: 62%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px rgb(188, 188, 252);
+}
+
 /* RESPONSIVE */
 /*============*/
 /* Tablette: libre adaptation Break Point 992px */
