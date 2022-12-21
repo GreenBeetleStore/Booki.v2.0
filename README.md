@@ -1,8 +1,8 @@
 # <img src="./images/Booki@3x.png" alt="logo Booki">
 
-# P2 Transformez une maquette en site web avec HTML &amp; CSS . 2ª Avaluació
+# P2 Transformez une maquette en site web avec HTML &amp; CSS . 
 
-
+<img src="./images/maquette.png" alt="maquette Booki">
 
 # Étapes clés – Projet 2 du parcours Développeur web
 
