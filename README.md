@@ -1,5 +1,7 @@
 # <img src="./images/Booki@3x.png" alt="logo Booki">
 
+### Visitez le projet réalisé <a href="https://greenbeetlestore.github.io/Booki.v2.0/">ici : https://greenbeetlestore.github.io/Booki.v2.0/</a>
+
 # P2 Transformez une maquette en site web avec HTML &amp; CSS . 
 
 <img src="./images/maquette.png" alt="maquette Booki">
