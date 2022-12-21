@@ -9,6 +9,7 @@ body {
     flex-direction: column;
     max-width: 1440px;
     margin: auto;
+    background-image: "images/annie-spratt-Eg1qcIitAuA-unsplash.jpg";
 }
 /* Header */
 header {
