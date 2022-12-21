@@ -1,8 +1,8 @@
 # Booki.v2.0
 
-<img src="./images/Booki@3x.png" alt="logo Booki">
+# P2 Transformez une maquette en site web avec HTML &amp; CSS . 2ª Avaluació
 
-P2 Transformez une maquette en site web avec HTML &amp; CSS . 2ª Avaluació
+<img src="./images/Booki@3x.png" alt="logo Booki">
 
 # Étapes clés – Projet 2 du parcours Développeur web
 
@@ -16,29 +16,44 @@ Démarrez votre projet dans de bonnes conditions en installant un environnement 
 ### 🎯 Une fois cette étape réalisée, vous aurez :
 
 ● un fichier index.html ;
+
 ● un dossier “css” avec votre ou vos fichiers CSS ;
+
 ● un dossier “assets” ou “images” contenant les images du projet.
+
 
 ### 📌 Recommandations :
 
 ● Commencez par installer VSCode.
+
 ● Ajoutez la propriété CSS box-sizing.
+
 ● Ajoutez les meta charset et viewport.
+
 ● Ajoutez un fichier normalize.css.
+
 ● Importez les polices depuis Google Font.
+
 ● Ajoutez l’intégration de FontAwesome.
+
 
 ### ⚠️ Points de vigilance :
 
 ● Attention à bien importer vos fichiers CSS dans le “bon” ordre, autrement dit, du plus générique au plus spécifique.
+
 ● Attention à bien appeler votre fichier CSS dans votre HTML, sans quoi vous ne pourrez pas utiliser le style CSS.
+
 
 ### 📃 Ressources :
 
-● Le cours Installez VSCode et vos outils de développement.
+● Le cours <a href="https://openclassrooms.com/fr/courses/6943241-mettez-en-place-votre-environnement-front-end/6943248-installez-vos-outils-de-developpement-front-end">Installez VSCode et vos outils de développement</a>.
+
 ● L’article Apprenez à mettre en place la propriété box-sizing.
+
 ● L’article Utilisez normalize.css dans vos projets pour assurer la cohérence entre les navigateurs.
+
 ● L’article Utilisez la balise meta viewport pour améliorer l’expérience mobile.
+
 
 ## Étape 2 : Découpez votre maquette à l’aide d’un papier et d’un crayon
 10 % d’avancement
