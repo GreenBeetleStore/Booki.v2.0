@@ -21,7 +21,6 @@ Démarrez votre projet dans de bonnes conditions en installant un environnement 
 
 ● un dossier “assets” ou “images” contenant les images du projet.
 
-
 ### 📌 Recommandations :
 
 ● Commencez par installer VSCode.
@@ -36,24 +35,21 @@ Démarrez votre projet dans de bonnes conditions en installant un environnement 
 
 ● Ajoutez l’intégration de FontAwesome.
 
-
 ### ⚠️ Points de vigilance :
 
 ● Attention à bien importer vos fichiers CSS dans le “bon” ordre, autrement dit, du plus générique au plus spécifique.
 
 ● Attention à bien appeler votre fichier CSS dans votre HTML, sans quoi vous ne pourrez pas utiliser le style CSS.
 
-
 ### 📃 Ressources :
 
 ● Le cours <a href="https://openclassrooms.com/fr/courses/6943241-mettez-en-place-votre-environnement-front-end/6943248-installez-vos-outils-de-developpement-front-end">Installez VSCode et vos outils de développement</a>.
 
-● L’article Apprenez à mettre en place la propriété box-sizing.
+● L’article <a href="https://la-cascade.io/box-sizing-pour-les-nuls/">Apprenez à mettre en place la propriété box-sizing</a>.
 
-● L’article Utilisez normalize.css dans vos projets pour assurer la cohérence entre les navigateurs.
+● L’article <a href="https://www.hideout-lastation.com/using-normalize-css">Utilisez normalize.css dans vos projets pour assurer la cohérence entre les navigateurs</a>.
 
-● L’article Utilisez la balise meta viewport pour améliorer l’expérience mobile.
-
+● L’article <a href="https://www.pierre-giraud.com/html-css-apprendre-coder-cours/meta-viewport/">Utilisez la balise meta viewport pour améliorer l’expérience mobile</a>.
 
 ## Étape 2 : Découpez votre maquette à l’aide d’un papier et d’un crayon
 10 % d’avancement
@@ -69,7 +65,9 @@ Avant de commencer à coder, structurez votre projet en dessinant les grandes se
 Posez-vous les questions suivantes :
 
 ● Où se trouve le header ? Comporte-t-il aussi un menu de navigation ?
+
 ● Où se trouve le footer ? Que comprend-il comme éléments HTML (des liens, des listes, etc.) ?
+
 ● À quoi la partie “Hébergements à Marseille” ou “Les plus populaires” correspond-elle au niveau HTML ? Quels vont être les éléments HTML composant la partie “Hébergements à Marseille” ?
 
 Une fois que vous avez réalisé le schéma HTML de votre maquette, discutez-en avec d’autres étudiants et avec votre mentor. Cette étape va vous permettre de vous poser les bonnes questions, et de vérifier que vous n’avez rien oublié.
@@ -80,8 +78,9 @@ Une fois que vous avez réalisé le schéma HTML de votre maquette, discutez-en 
 
 ### 📃 Ressources :
 
-● Le chapitre Bien comprendre la maquette de ce cours.
-● Le webinaire Découpez une maquette pour préparer l’intégration.
+● Le chapitre <a href="https://openclassrooms.com/fr/courses/3504431-decoupez-et-integrez-une-maquette/3605766-traduire-les-elements-visuels-en-html#/id/r-3672510">Bien comprendre la maquette de ce cours</a>.
+
+● Le webinaire <a href="https://app.livestorm.co/openclassrooms-1/decouper-une-maquette-pour-preparer-lintegration?type=detailed">Découpez une maquette pour préparer l’intégration</a>.
 
 ## Étape 3 : Intégrez le header du projet
 20 % d’avancement
@@ -95,21 +94,28 @@ C’est l’heure de commencer à coder le projet. Dans cette étape, vous allez
 ### 📌 Recommandations :
 
 ● Intégrez d’abord la version desktop avant de réaliser les versions tablette puis mobile.
+
 ● Réalisez d’abord le header pour la version desktop du projet. Une fois la version desktop finalisée, attaquez-vous à la version tablette puis à la version mobile.
+
 ● Vous pouvez utiliser Flexbox pour réaliser le positionnement entre le logo Booki et les parties Hébergements / Activités.
 
 ### ⚠️ Points de vigilance :
 
 ● Attention à ne pas oublier la bordure bleue qui s’affiche au survol.
+
 ● Attention, la bordure bleue s’affiche au-dessus en version desktop et en dessous en version mobile.
 
 ### 📃 Ressources :
 
-● Le webinaire Intégrez une maquette (replay ici et corrigé ici).
-● La vidéo Intégrer une maquette de Grafikart.
-● Le chapitre Utilisez le responsive design avec les Media Queries de ce cours.
-● Découvrez un guide complet pour Flexbox : ce guide, à enregistrer dans vos favoris, vous permettra de connaître précisément les propriétés relatives à Flexbox.
-● L’article Découvrez des bonnes pratiques pour Flexbox.
+● Le webinaire <a href="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/Webinars/Code/DW_P2_int%C3%A9grer_maquette_Feb_2021/Webinaire_DW_P2_inte%CC%81grer_maquette+enonce.pdf">Intégrez une maquette</a> (<a href="https://app.livestorm.co/openclassrooms-1/integrez-une-maquette?type=detailed">replay ici</a> et <a href="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/Challenge_DW_P2/Correction_code_html.zip">corrigé ici</a>).
+
+● La vidéo <a href="https://www.youtube.com/watch?v=_SEwzS1vG28">Intégrer une maquette</a> de Grafikart.
+
+● Le chapitre <a href="https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1607616-utilisez-le-responsive-design-avec-les-media-queries">Utilisez le responsive design avec les Media Queries</a> de ce cours.
+
+● <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Découvrez un guide complet pour Flexbox</a> : ce guide, à enregistrer dans vos favoris, vous permettra de connaître précisément les propriétés relatives à Flexbox.
+
+● L’article <a href="https://la-cascade.io/flexbox-guide-complet/">Découvrez des bonnes pratiques pour Flexbox</a>.
 
 ## Étape 4 : Ajoutez le formulaire de recherche
 30 % d’avancement
